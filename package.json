@@ -25,7 +25,6 @@
     "globals": "^16.0.0",
     "vite": "^6.3.5"
   }
-
 "homepage": "https://jinwoo0501.github.io/React",
 "scripts": {
   "start": "react-scripts start",
