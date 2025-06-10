@@ -27,9 +27,9 @@
   }
 "homepage": "https://jinwoo0501.github.io/React",
 "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
+  "dev": "vite",
+  "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
 }
 }
