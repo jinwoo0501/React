@@ -1,0 +1,23 @@
+.reservation-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.reservation-button {
+  padding: 14px 32px;
+  background-color: #007bff; /* 기존 색 유지 */
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2); /* 버튼 색 기반 그림자 */
+}
+
+.reservation-button:hover {
+  background-color: #0056b3; /* 기존 hover 색 유지 */
+  transform: translateY(-2px);
+}

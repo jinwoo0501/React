@@ -1,0 +1,14 @@
+.like-icon {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+}
+
+
+.like-icon:hover {
+  transform: scale(1.2);
+}

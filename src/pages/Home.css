@@ -1,0 +1,64 @@
+.home-hero {
+  background-image: url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fcinema-movie-theatre-interior-vector-illustration_53562-2172.jpg&type=sc960_832");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-text {
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  color: #111827;
+  max-width: 480px;
+  width: 90%;
+}
+
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827; 
+  margin-bottom: 12px;
+}
+
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #374151;
+  margin-bottom: 24px;
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+
+.button-group button {
+  padding: 14px 28px;             
+  font-size: 1.125rem;            
+  font-weight: 700;            
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);  
+}
